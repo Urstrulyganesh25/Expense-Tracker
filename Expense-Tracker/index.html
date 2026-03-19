@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <h1>Expense Tracker</h1>
+        <button id="theme-toggle">🌙 Dark Mode</button>
+
+        <!-- Expense Form -->
+        <form id="expense-form">
+          <input type="text" id="name" placeholder="Expense Name" required />
+          <input type="number" id="amount" placeholder="Amount" required />
+          <select id="category">
+            <option>Food</option>
+            <option>Travel</option>
+            <option>Marketing</option>
+            <option>Utilities</option>
+            <option>Other</option>
+          </select>
+          <button type="submit">Add Expense</button>
+        </form>
+
+        <!-- Currency Converter -->
+        <div class="currency">
+          <label>Convert to:</label>
+          <select id="currency">
+            <option value="USD">USD</option>
+            <option value="INR">INR</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+          </select>
+          <p id="converted"></p>
+        </div>
+
+        <!-- Summary -->
+
+        <!-- Replace inside #summary in index.html -->
+        <div id="summary">
+          <h3>Total: <span id="total-badge" class="badge">$0</span></h3>
+          <h3>Converted: <span id="converted-badge" class="badge">0</span></h3>
+          <div id="breakdown"></div>
+        </div>
+        <h3>Expense List</h3>
+        <div id="expense-list"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
