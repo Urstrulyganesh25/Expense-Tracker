@@ -1,3 +1,4 @@
+//Here we go for Javascript...
 let expenses = [];
 let currency = "USD";
 
@@ -175,7 +176,7 @@ async function fetchConversion() {
     }
 }
 
-// Initialize UI state on load (ensure conversion controls are disabled when there are no expenses)
+// Initialize UI state on load 
 window.addEventListener("DOMContentLoaded", init);
 
 function toggleTheme() {
