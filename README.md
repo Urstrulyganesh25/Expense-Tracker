@@ -6,11 +6,11 @@ Users can track income and expenses, view a list of transactions, and see the to
 
 ## Demo
 
-[Live Demo](YOUR_GITHUB_PAGES_URL) <!-- Replace with your GitHub Pages URL if deployed -->
+[Live Demo](https://expense-tracker-tan-omega-93.vercel.app/) 
 
 ## Features
 
-- Add income and expenses with date, description, and amount
+- Add income and expenses with  name,categorys and amount
 - Display a list of transactions
 - Calculate and display total income, expenses, and balance
 - Connects to an external API for data storage (`https://api.frankfurter.app/latest?amount=${total}&from=USD&to=${currency}`)
@@ -19,5 +19,5 @@ Users can track income and expenses, view a list of transactions, and see the to
 ## Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend (API):** Your API endpoint (`https://api.frankfurter.app/latest?amount=${total}&from=USD&to=${currency}`)
-- **Deployment:** 
+- **Backend (API):** (`https://api.frankfurter.app/latest?amount=${total}&from=USD&to=${currency}`)
+- **Deployment:** versal
